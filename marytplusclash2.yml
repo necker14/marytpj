@@ -61,7 +61,7 @@ Proxy:
   - {name: 🇭🇰 香港Ruby中转Rock - 台北 - 中华电信 HINET, server: ruby.marytup.xyz, port: 27452, type: vmess, uuid: 6008edca-1e5b-406a-a014-bc5e85a852bf, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
   - {name: 🇨🇳 Rock - 台北 - 中华电信 HINET, server: rock.marytup.xyz, port: 53149, type: vmess, uuid: 6008edca-1e5b-406a-a014-bc5e85a852bf, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rock.marytup.xyz}}
   - {name: 🇨🇳 国内中转Hilo - Rock - 中华电信 HINET - 中国广州移动, server: 120.232.163.33, port: 7142, type: vmess, uuid: 6008edca-1e5b-406a-a014-bc5e85a852bf, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rock.marytup.xyz}}
-  - {name: JP Uni - 日本Softbank - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
+  - {name: Uni - 日本Softbank - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
 
 Proxy Group:
   - name: 🔰 节点选择
