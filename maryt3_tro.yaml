@@ -459,6 +459,67 @@ proxies:
      - http/1.1
   # skip-cert-verify: true
 
+- name: "Ruby - Trojan - Hilo中转"
+  type: trojan
+  server: 120.232.163.33
+  port: 2333
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
+
+- name: "Lance - Trojan - Setsuna中转"
+  type: trojan
+  server: 111.6.79.115
+  port: 63172
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
+
+- name: "Sara - Trojan - Setsuna中转"
+  type: trojan
+  server: 111.6.79.115
+  port: 26648
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
+
+- name: "Zero - Trojan - Rigel中转"
+  type: trojan
+  server: 111.6.79.115
+  port: 49215
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
+
+- name: "Jonny - Trojan - Rigel中转"
+  type: trojan
+  server: 111.6.79.115
+  port: 41973
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
+
+
 # 代理组策略
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
 proxy-groups:
@@ -468,10 +529,15 @@ proxy-groups:
   type: url-test
   proxies:
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
+    - "Ruby - Trojan - Hilo中转"
     - "Lance - Trojan - 美国洛杉矶"
+    - "Lance - Trojan - Setsuna中转"
     - "Jonny - Trojan - 美国洛杉矶"
+    - "Jonny - Trojan - Rigel中转"
     - "Zero - Trojan - 美国洛杉矶"
+    - "Zero - Trojan - Rigel中转"
     - "Ruby - HKT - V2ray - 200Mps - 香港"
     - "国内中转Hilo - Ruby - HKT - 中国广州移动"
     - "国内中转Gary - Ruby - HKT - 中国枣庄联通"
@@ -498,6 +564,7 @@ proxy-groups:
     - "Jonny - 洛杉矶 - V2ray - CN2 GT"
     - "国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动"
     - "Uni - 日本Softbank - V2ray - Gary - 枣庄联通 - Beta"
+  
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -529,10 +596,15 @@ proxy-groups:
   proxies:
     - "自动选择快速节点"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
+    - "Ruby - Trojan - Hilo中转"
     - "Lance - Trojan - 美国洛杉矶"
+    - "Lance - Trojan - Setsuna中转"
     - "Jonny - Trojan - 美国洛杉矶"
+    - "Jonny - Trojan - Rigel中转"
     - "Zero - Trojan - 美国洛杉矶"
+    - "Zero - Trojan - Rigel中转"
     - "Ruby - HKT - V2ray - 200Mps - 香港"
     - "国内中转Hilo - Ruby - HKT - 中国广州移动"
     - "国内中转Gary - Ruby - HKT - 中国枣庄联通"
@@ -573,10 +645,15 @@ proxy-groups:
   proxies:
     - "DIRECT"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
+    - "Ruby - Trojan - Hilo中转"
     - "Lance - Trojan - 美国洛杉矶"
+    - "Lance - Trojan - Setsuna中转"
     - "Jonny - Trojan - 美国洛杉矶"
+    - "Jonny - Trojan - Rigel中转"
     - "Zero - Trojan - 美国洛杉矶"
+    - "Zero - Trojan - Rigel中转"
     - "Ruby - HKT - V2ray - 200Mps - 香港"
     - "国内中转Hilo - Ruby - HKT - 中国广州移动"
     - "国内中转Gary - Ruby - HKT - 中国枣庄联通"
@@ -610,10 +687,15 @@ proxy-groups:
   proxies:
     - "PROXY"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
+    - "Ruby - Trojan - Hilo中转"
     - "Lance - Trojan - 美国洛杉矶"
+    - "Lance - Trojan - Setsuna中转"
     - "Jonny - Trojan - 美国洛杉矶"
+    - "Jonny - Trojan - Rigel中转"
     - "Zero - Trojan - 美国洛杉矶"
+    - "Zero - Trojan - Rigel中转"
     - "Ruby - HKT - V2ray - 200Mps - 香港"
     - "国内中转Hilo - Ruby - HKT - 中国广州移动"
     - "国内中转Gary - Ruby - HKT - 中国枣庄联通"
@@ -646,10 +728,15 @@ proxy-groups:
   proxies:
     - "DIRECT"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
+    - "Ruby - Trojan - Hilo中转"
     - "Lance - Trojan - 美国洛杉矶"
+    - "Lance - Trojan - Setsuna中转"
     - "Jonny - Trojan - 美国洛杉矶"
+    - "Jonny - Trojan - Rigel中转"
     - "Zero - Trojan - 美国洛杉矶"
+    - "Zero - Trojan - Rigel中转"
     - "Ruby - HKT - V2ray - 200Mps - 香港"
     - "国内中转Hilo - Ruby - HKT - 中国广州移动"
     - "国内中转Gary - Ruby - HKT - 中国枣庄联通"
