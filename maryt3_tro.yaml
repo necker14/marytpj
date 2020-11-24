@@ -55,7 +55,7 @@ proxies:
 - name: "国内中转Rigel - Ruby - HKT - 中国河南移动"
   type: vmess
   server: 111.6.79.115
-  port: 41973
+  port: 63215
   uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09
   alterId: 0
   cipher: auto
@@ -70,7 +70,7 @@ proxies:
 - name: "国内中转Setsuna - Ruby - HKT - 中国河南移动"
   type: vmess
   server: 111.6.79.115
-  port: 34412
+  port: 64551
   uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09
   alterId: 0
   cipher: auto
