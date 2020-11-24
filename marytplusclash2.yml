@@ -57,8 +57,67 @@ Proxy:
   - {name: 🇺🇲 Jonny - 洛杉矶 - CN2 GT, server: jonny.marytup.xyz, port: 60673, type: vmess, uuid: b2617926-e5a4-4084-a376-23d186b680b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
   - {name: 🇺🇲 国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动, server: 111.6.79.115, port: 64125, type: vmess, uuid: b2617926-e5a4-4084-a376-23d186b680b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
   - {name: Uni - 日本Softbank - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
- 
 
+# Trojan
+- name: "Sara - Trojan - 俄罗斯伯力"
+  type: trojan
+  server: sara.marytup.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
+
+- name: "Lance - Trojan - 美国洛杉矶"
+  type: trojan
+  server: lance.marytup.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
+
+- name: "Jonny - Trojan - 美国洛杉矶"
+  type: trojan
+  server: jonny.marytup.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
+
+- name: "Zero - Trojan - 美国洛杉矶"
+  type: trojan
+  server: zero.marytup.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
+
+- name: "Ruby - Trojan - 中国香港"
+  type: trojan
+  server: ruby.marytup.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
   
 
 Proxy Group:
