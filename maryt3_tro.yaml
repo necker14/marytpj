@@ -73,48 +73,48 @@ hosts:
   #     - 240.0.0.0/4
 
 proxies:
-# VMess
-- name: "Ruby - HKT - V2ray - 200Mps - 香港"
-  type: vmess
-  server: ruby.marytup.xyz
-  port: 27125
-  uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers: #这一行后面不要写东西
-    Host: ruby.marytup.xyz # 填你的主机名
+# # VMess
+# - name: "Ruby - HKT - V2ray - 200Mps - 香港"
+#   type: vmess
+#   server: ruby.marytup.xyz
+#   port: 27125
+#   uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456
+#   alterId: 0
+#   cipher: auto
+#   # udp: true
+#   # tls: true
+#   # skip-cert-verify: true
+#   network: ws
+#   ws-path: /
+#   ws-headers: #这一行后面不要写东西
+#     Host: ruby.marytup.xyz # 填你的主机名
 
-  # - {name: 🇭🇰 Ruby - HKT - V2ray - 200Mps - 香港, server: ruby.marytup.xyz, port: 27125, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Hilo - Ruby - HKT - 中国广州移动, server: 120.232.163.33, port: 4217, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Gary - Ruby - HKT - 中国枣庄联通, server: 119.188.248.38, port: 50100, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Rigel - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 41973, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Setsuna - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 34412, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  # - {name: 🇭🇰 Honey - 香港HKBN - V2ray - 150Mps, server: honey.marytup.xyz, port: 80, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Hilo - Honey - HKBN - 中国广州移动, server: 120.232.163.33, port: 6317, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Rigel - Honey - HKBN - 中国河南移动, server: 111.6.79.115, port: 26641, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Setsuna - Honey - HKBN - 中国河南移动, server: 111.6.79.115, port: 35542, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
-  # - {name: 🇭🇰 Altair - 香港HKBN - V2ray - 150Mps, server: altair.marytup.xyz, port: 80, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Hilo - Altair - HKBN - 中国广州移动, server: 120.232.163.33, port: 7746, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Rigel - Altair - HKBN - 中国河南移动, server: 111.6.79.115, port: 28347, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Setsuna - Altair - HKBN - 中国河南移动, server: 111.6.79.115, port: 46887, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
-  # - {name: Sara - 俄罗斯伯力 - V2ray - 1Gps, server: sara.marytup.xyz, port: 23284, type: vmess, uuid: 1d54c1a2-845d-4975-9c6a-e87b08f30ed4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sara.marytup.xyz}}
-  # - {name: 国内中转Gary - Sara - 俄罗斯伯力 - 枣庄联通, server: 119.188.248.38, port: 50105, type: vmess, uuid: 1d54c1a2-845d-4975-9c6a-e87b08f30ed4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sara.marytup.xyz}}
-  # - {name: 🇭🇰 Yuri - HKBN - V2ray - 50Mps - 香港, server: yuri.marytup.xyz, port: 80, type: vmess, uuid: fd76b07d-3248-406b-80c2-86cedc85cc0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: yuri.marytup.xyz}}
-  # - {name: 🇨🇳 国内中转Hilo - Yuri - HKBN - 中国广州移动, server: 120.232.163.33, port: 8417, type: vmess, uuid: fd76b07d-3248-406b-80c2-86cedc85cc0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: yuri.marytup.xyz}}
-  # - {name: 🇺🇲 Procyon - V2ray - 洛杉矶GIA CN2, server: procyon.marytup.xyz, port: 63719, type: vmess, uuid: d599ac6a-9a79-4a1a-9f61-fd5f3292d371, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: procyon.marytup.xyz}}
-  # - {name: 🇺🇲 国内中转Gary - Procyon - 洛杉矶GIA CN2 - 中国枣庄联通, server: 119.188.248.38, port: 50102, type: vmess, uuid: d599ac6a-9a79-4a1a-9f61-fd5f3292d371, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: procyon.marytup.xyz}}
-  # - {name: 🇺🇲 Zero - 洛杉矶 - V2ray - CN2 GT, server: zero.marytup.xyz, port: 62794, type: vmess, uuid: e4a92e31-bf04-4034-85b9-0645496cdf3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: zero.marytup.xyz}}
-  # - {name: 🇺🇲 国内中转Setsuna - Zero - 洛杉矶 - 中国河南移动, server: 111.6.79.115, port: 64551, type: vmess, uuid: e4a92e31-bf04-4034-85b9-0645496cdf3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: zero.marytup.xyz}}
-  # - {name: 🇺🇲 Lance - 洛杉矶 - V2ray - CN2 GT, server: lance.marytup.xyz, port: 65215, type: vmess, uuid:581170a9-0716-4f93-acd9-db32be23088b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lance.marytup.xyz}}
-  # - {name: 🇺🇲 国内中转Gary - Lance - 洛杉矶CN2 - 中国枣庄联通, server: 119.188.248.38, port: 50103, type: vmess, uuid:581170a9-0716-4f93-acd9-db32be23088b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lance.marytup.xyz}}
-  # - {name: 🇺🇲 Jonny - 洛杉矶 - V2ray - CN2 GT, server: jonny.marytup.xyz, port: 29691, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
-  # - {name: 🇺🇲 国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动, server: 111.6.79.115, port: 64125, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
-  # - {name: Uni - 日本Softbank - V2ray - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
+  - {name: 🇭🇰 Ruby - HKT - V2ray - 200Mps - 香港, server: ruby.marytup.xyz, port: 27125, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Hilo - Ruby - HKT - 中国广州移动, server: 120.232.163.33, port: 4217, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Gary - Ruby - HKT - 中国枣庄联通, server: 119.188.248.38, port: 50100, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Rigel - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 41973, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Setsuna - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 34412, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇭🇰 Honey - 香港HKBN - V2ray - 150Mps, server: honey.marytup.xyz, port: 80, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Hilo - Honey - HKBN - 中国广州移动, server: 120.232.163.33, port: 6317, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Rigel - Honey - HKBN - 中国河南移动, server: 111.6.79.115, port: 26641, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Setsuna - Honey - HKBN - 中国河南移动, server: 111.6.79.115, port: 35542, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
+  - {name: 🇭🇰 Altair - 香港HKBN - V2ray - 150Mps, server: altair.marytup.xyz, port: 80, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Hilo - Altair - HKBN - 中国广州移动, server: 120.232.163.33, port: 7746, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Rigel - Altair - HKBN - 中国河南移动, server: 111.6.79.115, port: 28347, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Setsuna - Altair - HKBN - 中国河南移动, server: 111.6.79.115, port: 46887, type: vmess, uuid: 6c2ccb08-a891-45d4-bbd1-6e607c76168a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: altair.marytup.xyz}}
+  - {name: Sara - 俄罗斯伯力 - V2ray - 1Gps, server: sara.marytup.xyz, port: 23284, type: vmess, uuid: 1d54c1a2-845d-4975-9c6a-e87b08f30ed4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sara.marytup.xyz}}
+  - {name: 国内中转Gary - Sara - 俄罗斯伯力 - 枣庄联通, server: 119.188.248.38, port: 50105, type: vmess, uuid: 1d54c1a2-845d-4975-9c6a-e87b08f30ed4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sara.marytup.xyz}}
+  - {name: 🇭🇰 Yuri - HKBN - V2ray - 50Mps - 香港, server: yuri.marytup.xyz, port: 80, type: vmess, uuid: fd76b07d-3248-406b-80c2-86cedc85cc0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: yuri.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Hilo - Yuri - HKBN - 中国广州移动, server: 120.232.163.33, port: 8417, type: vmess, uuid: fd76b07d-3248-406b-80c2-86cedc85cc0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: yuri.marytup.xyz}}
+  - {name: 🇺🇲 Procyon - V2ray - 洛杉矶GIA CN2, server: procyon.marytup.xyz, port: 63719, type: vmess, uuid: d599ac6a-9a79-4a1a-9f61-fd5f3292d371, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: procyon.marytup.xyz}}
+  - {name: 🇺🇲 国内中转Gary - Procyon - 洛杉矶GIA CN2 - 中国枣庄联通, server: 119.188.248.38, port: 50102, type: vmess, uuid: d599ac6a-9a79-4a1a-9f61-fd5f3292d371, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: procyon.marytup.xyz}}
+  - {name: 🇺🇲 Zero - 洛杉矶 - V2ray - CN2 GT, server: zero.marytup.xyz, port: 62794, type: vmess, uuid: e4a92e31-bf04-4034-85b9-0645496cdf3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: zero.marytup.xyz}}
+  - {name: 🇺🇲 国内中转Setsuna - Zero - 洛杉矶 - 中国河南移动, server: 111.6.79.115, port: 64551, type: vmess, uuid: e4a92e31-bf04-4034-85b9-0645496cdf3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: zero.marytup.xyz}}
+  - {name: 🇺🇲 Lance - 洛杉矶 - V2ray - CN2 GT, server: lance.marytup.xyz, port: 65215, type: vmess, uuid:581170a9-0716-4f93-acd9-db32be23088b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lance.marytup.xyz}}
+  - {name: 🇺🇲 国内中转Gary - Lance - 洛杉矶CN2 - 中国枣庄联通, server: 119.188.248.38, port: 50103, type: vmess, uuid:581170a9-0716-4f93-acd9-db32be23088b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: lance.marytup.xyz}}
+  - {name: 🇺🇲 Jonny - 洛杉矶 - V2ray - CN2 GT, server: jonny.marytup.xyz, port: 29691, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
+  - {name: 🇺🇲 国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动, server: 111.6.79.115, port: 64125, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
+  - {name: Uni - 日本Softbank - V2ray - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
 
 # Trojan
 - name: "Sara - Trojan - 俄罗斯伯力"
