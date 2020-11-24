@@ -519,6 +519,17 @@ proxies:
      - http/1.1
   skip-cert-verify: true
 
+- name: "Sara - Trojan - Gary中转"
+  type: trojan
+  server: 119.188.248.38
+  port: 50101
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  skip-cert-verify: true
 
 # 代理组策略
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
@@ -529,6 +540,7 @@ proxy-groups:
   type: url-test
   proxies:
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Gary中转"
     - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
     - "Ruby - Trojan - Hilo中转"
@@ -596,6 +608,7 @@ proxy-groups:
   proxies:
     - "自动选择快速节点"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Gary中转"
     - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
     - "Ruby - Trojan - Hilo中转"
@@ -645,6 +658,7 @@ proxy-groups:
   proxies:
     - "DIRECT"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Gary中转"
     - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
     - "Ruby - Trojan - Hilo中转"
@@ -687,6 +701,7 @@ proxy-groups:
   proxies:
     - "PROXY"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Gary中转"
     - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
     - "Ruby - Trojan - Hilo中转"
@@ -728,6 +743,7 @@ proxy-groups:
   proxies:
     - "DIRECT"
     - "Sara - Trojan - 俄罗斯伯力"
+    - "Sara - Trojan - Gary中转"
     - "Sara - Trojan - Setsuna中转"
     - "Ruby - Trojan - 中国香港"
     - "Ruby - Trojan - Hilo中转"
