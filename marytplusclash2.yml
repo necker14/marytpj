@@ -31,11 +31,11 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - {name: 🇭🇰 Ruby - HKT - V2ray - 200Mps - 香港, server: ruby.marytup.xyz, port: 27125, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  - {name: 🇨🇳 国内中转Hilo - Ruby - HKT - 中国广州移动, server: 120.232.163.33, port: 4217, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  - {name: 🇨🇳 国内中转Gary - Ruby - HKT - 中国枣庄联通, server: 119.188.248.38, port: 50100, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  - {name: 🇨🇳 国内中转Rigel - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 41973, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
-  - {name: 🇨🇳 国内中转Setsuna - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 34412, type: vmess, uuid: e1e616b3-e77d-4be7-bb21-8328da5c9456, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇭🇰 Ruby - HKT - V2ray - 200Mps - 香港, server: ruby.marytup.xyz, port: 27125, type: vmess, uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Hilo - Ruby - HKT - 中国广州移动, server: 120.232.163.33, port: 4217, type: vmess, uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Gary - Ruby - HKT - 中国枣庄联通, server: 119.188.248.38, port: 50100, type: vmess, uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Rigel - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 41973, type: vmess, uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
+  - {name: 🇨🇳 国内中转Setsuna - Ruby - HKT - 中国河南移动, server: 111.6.79.115, port: 34412, type: vmess, uuid: c8ff8abf-e269-4e4e-8500-0ac1528a5e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ruby.marytup.xyz}}
   - {name: 🇭🇰 Honey - 香港HKBN - V2ray - 150Mps, server: honey.marytup.xyz, port: 80, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
   - {name: 🇨🇳 国内中转Hilo - Honey - HKBN - 中国广州移动, server: 120.232.163.33, port: 6317, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
   - {name: 🇨🇳 国内中转Rigel - Honey - HKBN - 中国河南移动, server: 111.6.79.115, port: 26641, type: vmess, uuid: d523813d-12e5-408c-b46e-ff03dec184db, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: honey.marytup.xyz}}
@@ -57,67 +57,6 @@ Proxy:
   - {name: 🇺🇲 Jonny - 洛杉矶 - V2ray - CN2 GT, server: jonny.marytup.xyz, port: 29691, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
   - {name: 🇺🇲 国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动, server: 111.6.79.115, port: 64125, type: vmess, uuid: 761e3b40-12ae-4e9e-a06c-1c77f065194d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jonny.marytup.xyz}}
   - {name: Uni - 日本Softbank - V2ray - Gary - 枣庄联通 - Beta, server: 119.188.248.38, port: 50104, type: vmess, uuid: edc04781-684c-44cf-8e95-c23bd78aaffd, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: uni.marytup.xyz}}
-  - {name: Sara - Trojan - 俄罗斯伯力, server: sara.marytup.xyz, port: 443, type: trojan, password: 372815193}
-# # Trojan
-# - name: "Sara - Trojan - 俄罗斯伯力"
-#   type: trojan
-#   server: sara.marytup.xyz
-#   port: 443
-#   password: 372815193
-#   # udp: true
-#   # sni: example.com # aka server name
-#   alpn:
-#      - h2
-#      - http/1.1
-#   # skip-cert-verify: true
-
-# - name: "Lance - Trojan - 美国洛杉矶"
-#   type: trojan
-#   server: lance.marytup.xyz
-#   port: 443
-#   password: 372815193
-#   # udp: true
-#   # sni: example.com # aka server name
-#   alpn:
-#      - h2
-#      - http/1.1
-#   # skip-cert-verify: true
-
-# - name: "Jonny - Trojan - 美国洛杉矶"
-#   type: trojan
-#   server: jonny.marytup.xyz
-#   port: 443
-#   password: 372815193
-#   # udp: true
-#   # sni: example.com # aka server name
-#   alpn:
-#      - h2
-#      - http/1.1
-#   # skip-cert-verify: true
-
-# - name: "Zero - Trojan - 美国洛杉矶"
-#   type: trojan
-#   server: zero.marytup.xyz
-#   port: 443
-#   password: 372815193
-#   # udp: true
-#   # sni: example.com # aka server name
-#   alpn:
-#      - h2
-#      - http/1.1
-#   # skip-cert-verify: true
-
-# - name: "Ruby - Trojan - 中国香港"
-#   type: trojan
-#   server: ruby.marytup.xyz
-#   port: 443
-#   password: 372815193
-#   # udp: true
-#   # sni: example.com # aka server name
-#   alpn:
-#      - h2
-#      - http/1.1
-#   # skip-cert-verify: true
   
 
 Proxy Group:
