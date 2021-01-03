@@ -266,7 +266,8 @@ proxies:
   type: vmess
   server: procyon.marythunt.xyz
   port: 63719
-  uuid: 57a864f6-9ab1-4711-b148-27b652d53cfe
+  uuid: d6feaa3b-701a-4259-a380-d1b7b0dfd055
+
   alterId: 0
   cipher: auto
   # udp: true
@@ -281,7 +282,8 @@ proxies:
   type: vmess
   server: 119.188.248.38
   port: 50102
-  uuid: 57a864f6-9ab1-4711-b148-27b652d53cfe
+  uuid: d6feaa3b-701a-4259-a380-d1b7b0dfd055
+
   alterId: 0
   cipher: auto
   # udp: true
