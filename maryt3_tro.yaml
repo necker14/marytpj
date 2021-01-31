@@ -24,7 +24,7 @@ proxies:
 
 - name: "国内中转Hilo - Ruby - HKT - 中国广州移动"
   type: vmess
-  server: 120.232.163.33
+  server: 120.232.214.115
   port: 4217
   uuid: 610bfba5-20cb-48fb-8802-8989d5c3131d
   alterId: 0
@@ -99,7 +99,7 @@ proxies:
 
 - name: "国内中转Hilo - Honey - HKBN - 中国广州移动"
   type: vmess
-  server: 120.232.163.33
+  server: 120.232.214.115
   port: 6317
   uuid: 6f6ae532-a089-46c4-b534-21a2c52f4447
   alterId: 0
@@ -159,7 +159,7 @@ proxies:
 
 - name: "国内中转Hilo - Altair - HKBN - 中国广州移动"
   type: vmess
-  server: 120.232.163.33
+  server: 120.232.214.115
   port: 7746
   uuid: fa3c0fd0-2a5b-4d9f-80a3-c105087e4942
   alterId: 0
@@ -235,8 +235,8 @@ proxies:
 - name: "Yuri - HKBN - V2ray - 50Mps - 香港"
   type: vmess
   server: yuri.marythunt.xyz
-  port: 50105
-  uuid: 2274e28c-b70d-41ee-86ac-0f524f660a74
+  port: 80
+  uuid: ce22106b-1228-4cc1-9f9b-d91929415e14
   alterId: 0
   cipher: auto
   # udp: true
@@ -249,9 +249,9 @@ proxies:
 
 - name: "国内中转Hilo - Yuri - HKBN - 中国广州移动"
   type: vmess
-  server: 120.232.163.33
+  server: 120.232.214.115
   port: 8417
-  uuid: 2274e28c-b70d-41ee-86ac-0f524f660a74
+  uuid: ce22106b-1228-4cc1-9f9b-d91929415e14
   alterId: 0
   cipher: auto
   # udp: true
@@ -267,7 +267,6 @@ proxies:
   server: procyon.marythunt.xyz
   port: 63719
   uuid: d6feaa3b-701a-4259-a380-d1b7b0dfd055
-
   alterId: 0
   cipher: auto
   # udp: true
@@ -283,7 +282,6 @@ proxies:
   server: 119.188.248.38
   port: 50102
   uuid: d6feaa3b-701a-4259-a380-d1b7b0dfd055
-
   alterId: 0
   cipher: auto
   # udp: true
@@ -388,7 +386,7 @@ proxies:
   type: vmess
   server: 119.188.248.38
   port: 50104
-  uuid: edc04781-684c-44cf-8e95-c23bd78aaffd
+  uuid: be4a7fcc-ffff-4ec3-a2bf-79de7c0f7606
   alterId: 0
   cipher: auto
   # udp: true
@@ -397,8 +395,7 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: uni.marythunt.xyz
-
+    Host: jp.whisperjj.xyz
 
 # Trojan
 - name: "Sara - Trojan - 俄罗斯伯力"
@@ -463,7 +460,7 @@ proxies:
 
 - name: "Ruby - Trojan - Hilo中转"
   type: trojan
-  server: 120.232.163.33
+  server: 120.232.214.115
   port: 2333
   password: 372815193
   # udp: true
