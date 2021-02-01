@@ -236,7 +236,7 @@ proxies:
   type: vmess
   server: yuri.marythunt.xyz
   port: 80
-  uuid: ce22106b-1228-4cc1-9f9b-d91929415e14
+  uuid: 0b0ba528-fabb-4bf1-991f-32849de29f90
   alterId: 0
   cipher: auto
   # udp: true
@@ -251,7 +251,7 @@ proxies:
   type: vmess
   server: 120.232.214.115
   port: 8417
-  uuid: ce22106b-1228-4cc1-9f9b-d91929415e14
+  uuid: 0b0ba528-fabb-4bf1-991f-32849de29f90
   alterId: 0
   cipher: auto
   # udp: true
