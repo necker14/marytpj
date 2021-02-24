@@ -52,20 +52,6 @@ proxies:
   ws-headers:
     Host: ruby.marythunt.xyz 
 
-- name: "国内中转Rigel - Ruby - HKT - 中国河南移动"
-  type: vmess
-  server: 111.6.79.115
-  port: 63215
-  uuid: 610bfba5-20cb-48fb-8802-8989d5c3131d
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ruby.marythunt.xyz 
 
 - name: "国内中转Setsuna - Ruby - HKT - 中国河南移动"
   type: vmess
@@ -81,6 +67,36 @@ proxies:
   ws-path: /
   ws-headers:
     Host: ruby.marythunt.xyz 
+
+- name: "Eva - 美国洛杉矶 - GIA CN2"
+  type: vmess
+  server: eva.marythunt.xyz
+  port: 46145
+  uuid: e858ad79-61a2-4610-a5c6-268bc1af6034
+  alterId: 0
+  cipher: auto
+  # udp: true
+  # tls: true
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: eva.marythunt.xyz 
+
+- name: "国内中转Hilo - Eva - CN2 - 中国广州移动"
+  type: vmess
+  server: 120.232.214.115
+  port: 4772
+  uuid: e858ad79-61a2-4610-a5c6-268bc1af6034
+  alterId: 0
+  cipher: auto
+  # udp: true
+  # tls: true
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: eva.marythunt.xyz 
 
 - name: "Honey - 香港HKBN - V2ray - 150Mps"
   type: vmess
@@ -112,20 +128,6 @@ proxies:
   ws-headers:
     Host: honey.marythunt.xyz
 
-- name: "国内中转Rigel - Honey - HKBN - 中国河南移动"
-  type: vmess
-  server: 111.6.79.115
-  port: 26641
-  uuid: 6f6ae532-a089-46c4-b534-21a2c52f4447
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: honey.marythunt.xyz
 
 - name: "国内中转Setsuna - Honey - HKBN - 中国河南移动"
   type: vmess
@@ -161,21 +163,6 @@ proxies:
   type: vmess
   server: 120.232.214.115
   port: 7746
-  uuid: fa3c0fd0-2a5b-4d9f-80a3-c105087e4942
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: altair.marythunt.xyz
-
-- name: "国内中转Rigel - Altair - HKBN - 中国河南移动"
-  type: vmess
-  server: 111.6.79.115
-  port: 28347
   uuid: fa3c0fd0-2a5b-4d9f-80a3-c105087e4942
   alterId: 0
   cipher: auto
@@ -231,6 +218,36 @@ proxies:
   ws-path: /
   ws-headers:
     Host: sara.marythunt.xyz
+
+- name: "Mosaic - 德国 - CN2 GIA"
+  type: vmess
+  server: mosaic.marythunt.xyz
+  port: 38635
+  uuid: c194da53-7beb-47aa-a2f8-1e98d64cea2c
+  alterId: 0
+  cipher: auto
+  # udp: true
+  # tls: true
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: mosaic.marythunt.xyz
+
+- name: "国内中转Gary - Mosaic - 德国CN2 - 枣庄联通"
+  type: vmess
+  server: 119.188.248.38
+  port: 50106
+  uuid: c194da53-7beb-47aa-a2f8-1e98d64cea2c
+  alterId: 0
+  cipher: auto
+  # udp: true
+  # tls: true
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: mosaic.marythunt.xyz
 
 - name: "Yuri - HKBN - V2ray - 50Mps - 香港"
   type: vmess
@@ -292,115 +309,23 @@ proxies:
   ws-headers:
     Host: procyon.marythunt.xyz
 
-- name: "Zero - 洛杉矶 - V2ray - CN2 GT"
-  type: vmess
-  server: zero.marythunt.xyz
-  port: 62794
-  uuid: 118d3b35-fe3a-442c-be56-31a36bbb0e16
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zero.marythunt.xyz
-
-- name: "国内中转Setsuna - Zero - 洛杉矶 - 中国河南移动"
-  type: vmess
-  server: 111.6.79.115
-  port: 62794
-  uuid: 118d3b35-fe3a-442c-be56-31a36bbb0e16
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zero.marythunt.xyz
-
-- name: "Lance - 洛杉矶 - V2ray - CN2 GT"
-  type: vmess
-  server: lance.marythunt.xyz
-  port: 65215
-  uuid: d853d0ae-26aa-45bc-847c-f9ef269f1934
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lance.marythunt.xyz
-
-- name: "国内中转Gary - Lance - 洛杉矶CN2 - 中国枣庄联通"
-  type: vmess
-  server: 119.188.248.38
-  port: 50103
-  uuid: d853d0ae-26aa-45bc-847c-f9ef269f1934
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lance.marythunt.xyz
-
-- name: "Jonny - 洛杉矶 - V2ray - CN2 GT"
-  type: vmess
-  server: jonny.marythunt.xyz
-  port: 29691
-  uuid: 097550f8-da1a-4a86-a67e-d5577d282166
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jonny.marythunt.xyz
-
-- name: "国内中转Rigel - Jonny - 洛杉矶CN2 - 中国河南移动"
-  type: vmess
-  server: 111.6.79.115
-  port: 64125
-  uuid: 097550f8-da1a-4a86-a67e-d5577d282166
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jonny.marythunt.xyz
-  
-- name: "Uni - 日本Softbank - V2ray - Gary - 枣庄联通 - Beta"
-  type: vmess
-  server: 119.188.248.38
-  port: 50104
-  uuid: be4a7fcc-ffff-4ec3-a2bf-79de7c0f7606
-  alterId: 0
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp.whisperjj.xyz
 
 # Trojan
 - name: "Sara - Trojan - 俄罗斯伯力"
   type: trojan
   server: sara.marythunt.xyz
+  port: 443
+  password: 372815193
+  # udp: true
+  # sni: example.com # aka server name
+  alpn:
+     - h2
+     - http/1.1
+  # skip-cert-verify: true
+
+- name: "Mosaic - Trojan - 德国CN2"
+  type: trojan
+  server: mosaic.marythunt.xyz
   port: 443
   password: 372815193
   # udp: true
@@ -494,30 +419,6 @@ proxies:
      - http/1.1
   skip-cert-verify: true
 
-- name: "Zero - Trojan - Rigel中转"
-  type: trojan
-  server: 111.6.79.115
-  port: 49215
-  password: 372815193
-  # udp: true
-  # sni: example.com # aka server name
-  alpn:
-     - h2
-     - http/1.1
-  skip-cert-verify: true
-
-- name: "Jonny - Trojan - Rigel中转"
-  type: trojan
-  server: 111.6.79.115
-  port: 41973
-  password: 372815193
-  # udp: true
-  # sni: example.com # aka server name
-  alpn:
-     - h2
-     - http/1.1
-  skip-cert-verify: true
-
 - name: "Sara - Trojan - Gary中转"
   type: trojan
   server: 119.188.248.38
@@ -529,6 +430,8 @@ proxies:
      - h2
      - http/1.1
   skip-cert-verify: true
+
+
 
 # 代理组策略
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
