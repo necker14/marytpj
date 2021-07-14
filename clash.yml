@@ -7,13 +7,34 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: ""
 proxies:
+- {name: "Ruby - HK - HKBGP - V2ray", server: rubyv2.marythunt.xyz, port: 443, type: vmess, uuid: fa3123b4-88fc-478a-ad6c-c1c35629ad2f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+- {name: "Ruby - HK - HKBGP - Trojan-Go", server: rubytr.marythunt.xyz, port: 443, type: trojan, password: 7a38ed529d7f, sni: rubytr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Hilo中转 - Ruby - HK - HKBGP - Trojan-Go", server: 120.232.214.115, port: 5432, type: trojan, password: 7a38ed529d7f, sni: rubytr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Ugla中转 - Ruby - HK - HKBGP - Trojan-Go", server: 111.6.78.209, port: 35542, type: trojan, password: 7a38ed529d7f, sni: rubytr.marythunt.xyz, skip-cert-verify: false}
+
+
+- {name: "Sunny - HK - HKBGP - V2ray", server: sunnyv2.marythunt.xyz, port: 443, type: vmess, uuid: 546134a7-acac-4c5b-94f5-d944e8934a97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+- {name: "Sunny - HK - HKBGP - Trojan-Go", server: sunnytr.marythunt.xyz, port: 443, type: trojan, password: ec19cfb5231e, sni: sunnytr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Hilo中转 - Sunny - HK - HKBGP - Trojan-Go", server: 120.232.214.115, port: 2584, type: trojan, password: ec19cfb5231e, sni: sunnytr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Ugla中转 - Sunny - HK - HKBGP - Trojan-Go", server: 111.6.78.209, port: 46887, type: trojan, password: ec19cfb5231e, sni: sunnytr.marythunt.xyz, skip-cert-verify: false}
+
+- {name: "Akuma - HK - HKBGP - V2ray", server: akumav2.marythunt.xyz, port: 443, type: vmess, uuid: 9c3e2c13-8af8-48f5-806e-ec3a63bd803f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+- {name: "Akuma - HK - HKBGP - Trojan-Go", server: akumatr.marythunt.xyz, port: 443, type: trojan, password: 74282d903c44, sni: akumatr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Hilo中转 - Akuma - HK - HKBGP - Trojan-Go", server: 120.232.214.115, port: 2333, type: trojan, password: 74282d903c44, sni: akumatr.marythunt.xyz, skip-cert-verify: false}
+- {name: "Ugla中转 - Akuma - HK - HKBGP - Trojan-Go", server: 111.6.78.209, port: 54875, type: trojan, password: 74282d903c44, sni: akumatr.marythunt.xyz, skip-cert-verify: false}
+
 - { name: "Eva - US - GIA CN2 - V2ray", type: vmess, server: eva.marythunt.xyz, port: 46145, alterId: 0, uuid: d5fbf5b2-b744-4ce7-9921-2b3963aca539, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: eva.marythunt.xyz }, tls: false }
+- { name: "Hilo中转 - Eva - US - GIA CN2 - V2ray", type: vmess, server: 120.232.214.115, port: 4772, alterId: 0, uuid: d5fbf5b2-b744-4ce7-9921-2b3963aca539, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: eva.marythunt.xyz }, tls: false }
+
 - { name: "Polaris - US - V2ray", type: vmess, server: polaris.marythunt.xyz, port: 60967, alterId: 0, uuid: 13836927-42df-48f0-b0a3-3dc886d197f5, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: polaris.marythunt.xyz }, tls: false }
 - { name: "Polaris - US - Trojan", type: trojan, server: polaris.marythunt.xyz, port: 443, password: 372815193 }
+
 - { name: "Mosaic - DE - V2ray", type: vmess, server: mosaic.marythunt.xyz, port: 38635, alterId: 0, uuid: c194da53-7beb-47aa-a2f8-1e98d64cea2c, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: mosaic.marythunt.xyz }, tls: false }
 - { name: "Mosaic - DE - Trojan", type: trojan, server: mosaic.marythunt.xyz, port: 443, password: 372815193 }
+
 - { name: "Sara - RU - V2ray", type: vmess, server: sara.marythunt.xyz, port: 23284, alterId: 0, uuid: dd6c97c2-a237-4de4-beb7-f60b65991648, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: sara.marythunt.xyz }, tls: false }
 - { name: "Sara - RU - Trojan", type: trojan, server: sara.marythunt.xyz, port: 443, password: 372815193 }
+
 - { name: "Procyon - US - GIA CN2 - V2ray", type: vmess, server: procyon.marythunt.xyz, port: 30034, alterId: 0, uuid: 0694c0a0-b221-4436-bdf6-6c0f71eac4a8, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: procyon.marythunt.xyz }, tls: false }
 - { name: "Zero - US - Trojan", type: trojan, server: zero.marythunt.xyz, port: 443, password: 372815193 }
 - { name: "Lance - US - Trojan", type: trojan, server: lance.marythunt.xyz, port: 443, password: 372815193 }
