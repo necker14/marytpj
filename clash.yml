@@ -13,7 +13,7 @@ proxies:
   - {name: Hilo中转 - Akuma - HK - HKBGP - V2ray, server: 120.232.214.115, port: 2333, type: vmess, uuid: a04b8084-58e0-46d8-b8bd-c2cdbe698197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
   - {name: Akuma - HK - Trojan, server: akuma.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Hilo中转 - Akuma - HK - Trojan, server: 120.232.214.115, port: 6275, type: trojan, password: !<str> 372815193, skip-cert-verify: true}
-  - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 41159, type: vmess, uuid: beda1baf-0628-4b27-8b94-04d097713fe2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
+  - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 38031, type: vmess, uuid: a8fb075f-8b18-42e5-9f72-c2f91fb20e2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
   - {name: Cindy - KR - Trojan, server: cindy.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Eva - US - GIA CN2 - V2ray, server: eva.marythunt.xyz, port: 46145, type: vmess, uuid: 1e1b43b4-baca-4e65-bf50-667f0af8eb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: eva.marythunt.xyz}}
   - {name: Hilo中转 - Eva - US - GIA CN2 - V2ray, server: 120.232.214.115, port: 4772, type: vmess, uuid: 1e1b43b4-baca-4e65-bf50-667f0af8eb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: eva.marythunt.xyz}}
