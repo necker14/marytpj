@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Sunny - HK - HKBGP - V2ray, server: sunny.marythunt.xyz, port: 46485, type: vmess, uuid: 64817e48-0472-4c84-8eef-50ff0863b03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
-  - {name: Hilo中转 - Akuma - HK - HKBGP - V2ray, server: 120.232.214.115, port: 2333, type: vmess, uuid: 64817e48-0472-4c84-8eef-50ff0863b03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
+  - {name: Hilo中转 - Sunny - HK - HKBGP - V2ray, server: 120.232.214.115, port: 8702, type: vmess, uuid: 64817e48-0472-4c84-8eef-50ff0863b03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
   - {name: Sunny - HK - Trojan, server: sunny.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Hilo中转 - Sunny - HK - Trojan, server: 120.232.214.115, port: 8080, type: trojan, password: !<str> 372815193, skip-cert-verify: true}
   - {name: Akuma - HK - HKBGP - V2ray, server: akuma.marythunt.xyz, port: 45444, type: vmess, uuid: a04b8084-58e0-46d8-b8bd-c2cdbe698197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
