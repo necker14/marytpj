@@ -22,7 +22,7 @@ proxies:
   - {name: Mosaic - DE - Trojan, server: mosaic.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Sara - RU - V2ray, server: sara.marythunt.xyz, port: 23284, type: vmess, uuid: d8ebfd85-f0f9-4971-99e2-fd9d1fb48a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sara.marythunt.xyz}}
   - {name: Sara - RU - Trojan, server: sara.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Procyon - US - GIA CN2 - V2ray, server: procyon.marythunt.xyz, port: 30034, type: vmess, uuid: 0694c0a0-b221-4436-bdf6-6c0f71eac4a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: procyon.marythunt.xyz}}
+  - {name: Mokuba - JP, server: mokuba.marythunt.xyz, port: 64672, type: vmess, uuid: 73aeb7af-d3c8-4945-8944-47e3058c6b04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: mokuba.marythunt.xyz}}
   - {name: Zero - US - Trojan, server: zero.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
 
 proxy-groups:
