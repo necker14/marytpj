@@ -5,14 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Sunny - HK - HKBGP - V2ray, server: sunny.marythunt.xyz, port: 46485, type: vmess, uuid: 64817e48-0472-4c84-8eef-50ff0863b03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
-  - {name: Hilo中转 - Sunny - HK - HKBGP - V2ray, server: 120.232.214.115, port: 8702, type: vmess, uuid: 64817e48-0472-4c84-8eef-50ff0863b03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
-  - {name: Sunny - HK - Trojan, server: sunny.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Hilo中转 - Sunny - HK - Trojan, server: 120.232.214.115, port: 8080, type: trojan, password: !<str> 372815193, skip-cert-verify: true}
-  - {name: Akuma - HK - HKBGP - V2ray, server: akuma.marythunt.xyz, port: 45444, type: vmess, uuid: a04b8084-58e0-46d8-b8bd-c2cdbe698197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
-  - {name: Hilo中转 - Akuma - HK - HKBGP - V2ray, server: 120.232.214.115, port: 2333, type: vmess, uuid: a04b8084-58e0-46d8-b8bd-c2cdbe698197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
-  - {name: Akuma - HK - Trojan, server: akuma.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Hilo中转 - Akuma - HK - Trojan, server: 120.232.214.115, port: 6275, type: trojan, password: !<str> 372815193, skip-cert-verify: true}
+  - {name: Sunny - HK - HKBGP - V2ray, server: sunny.marythunt.xyz, port: 58908, type: vmess, uuid: 37f3af45-ba2a-4c2e-90d4-1ff00bd1821f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
+  - {name: Hilo中转 - Sunny - HK - HKBGP - V2ray, server: 120.232.214.115, port: 8702, type: vmess, uuid: 37f3af45-ba2a-4c2e-90d4-1ff00bd1821f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
+  - {name: Akuma - HK - HKBGP - V2ray, server: akuma.marythunt.xyz, port: 28687, type: vmess, uuid: 5a0a4a93-6730-4537-b516-6fb3343e395d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
+  - {name: Hilo中转 - Akuma - HK - HKBGP - V2ray, server: 120.232.214.115, port: 2333, type: vmess, uuid: 5a0a4a93-6730-4537-b516-6fb3343e395d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
   - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 38031, type: vmess, uuid: a8fb075f-8b18-42e5-9f72-c2f91fb20e2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
   - {name: Cindy - KR - Trojan, server: cindy.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Eva - US - GIA CN2 - V2ray, server: eva.marythunt.xyz, port: 23333, type: vmess, uuid: 1e1b43b4-baca-4e65-bf50-667f0af8eb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: eva.marythunt.xyz}}
