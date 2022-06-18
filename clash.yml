@@ -5,18 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Sunny - HK - HKBGP - V2ray, server: sunny.marythunt.xyz, port: 58908, type: vmess, uuid: 37f3af45-ba2a-4c2e-90d4-1ff00bd1821f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sunny.marythunt.xyz}}
-  - {name: Akuma - HK - HKBGP - V2ray, server: akuma.marythunt.xyz, port: 28687, type: vmess, uuid: 5a0a4a93-6730-4537-b516-6fb3343e395d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: akuma.marythunt.xyz}}
-  - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 38031, type: vmess, uuid: a8fb075f-8b18-42e5-9f72-c2f91fb20e2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
+  - {name: Eva - US - GIA CN2 - V2ray, server: eva.marythunt.xyz, port: 33243, type: vmess, uuid: d022f57c-484d-4a17-b405-967d7497efdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: eva.marythunt.xyz}}
+  - {name: Eva - US - Trojan, server: eva.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
+  - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 23333, type: vmess, uuid: a8fb075f-8b18-42e5-9f72-c2f91fb20e2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
   - {name: Cindy - KR - Trojan, server: cindy.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Eva - US - GIA CN2 - V2ray, server: eva.marythunt.xyz, port: 23333, type: vmess, uuid: 1e1b43b4-baca-4e65-bf50-667f0af8eb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: eva.marythunt.xyz}}
-  - {name: Polaris - US - V2ray, server: polaris.marythunt.xyz, port: 33401, type: vmess, uuid: a9db5820-ec66-4428-9e16-2a604db50c08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: polaris.marythunt.xyz}}
+  - {name: Tulip - CN2 - JP, server: tulip.marythunt.xyz, port: 42195, type: vmess, uuid: ad86c5ed-591a-481e-aa51-27dd4bd31410, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: tulip.marythunt.xyz}}
+  - {name: Mokuba - JP - Trojan, server: mokuba.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Mosaic - DE - V2ray, server: mosaic.marythunt.xyz, port: 38635, type: vmess, uuid: c194da53-7beb-47aa-a2f8-1e98d64cea2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: mosaic.marythunt.xyz}}
   - {name: Mosaic - DE - Trojan, server: mosaic.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Sara - RU - V2ray, server: sara.marythunt.xyz, port: 46375, type: vmess, uuid: d8ebfd85-f0f9-4971-99e2-fd9d1fb48a6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sara.marythunt.xyz}}
   - {name: Sara - RU - Trojan, server: sara.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Mokuba - JP, server: mokuba.marythunt.xyz, port: 64672, type: vmess, uuid: 73aeb7af-d3c8-4945-8944-47e3058c6b04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: mokuba.marythunt.xyz}}
   - {name: Zero - US - Trojan, server: zero.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
+  - {name: Polaris - US - V2ray, server: polaris.marythunt.xyz, port: 33401, type: vmess, uuid: a9db5820-ec66-4428-9e16-2a604db50c08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: polaris.marythunt.xyz}}
+
 
 proxy-groups:
   - name: 🚀 节点选择
