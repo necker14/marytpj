@@ -9,7 +9,7 @@ proxies:
   - {name: Eva - US - Trojan, server: eva.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Cindy - KR - CN2 - V2ray, server: cindy.marythunt.xyz, port: 23333, type: vmess, uuid: a8fb075f-8b18-42e5-9f72-c2f91fb20e2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cindy.marythunt.xyz}}
   - {name: Cindy - KR - Trojan, server: cindy.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
-  - {name: Tulip - CN2 - JP, server: tulip.marythunt.xyz, port: 42195, type: vmess, uuid: ad86c5ed-591a-481e-aa51-27dd4bd31410, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: tulip.marythunt.xyz}}
+  - {name: Tulip - JP - Trojan, server: tulip.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Mokuba - JP - Trojan, server: mokuba.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
   - {name: Mosaic - DE - V2ray, server: mosaic.marythunt.xyz, port: 38635, type: vmess, uuid: c194da53-7beb-47aa-a2f8-1e98d64cea2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: mosaic.marythunt.xyz}}
   - {name: Mosaic - DE - Trojan, server: mosaic.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false}
