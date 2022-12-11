@@ -1,0 +1,71 @@
+proxies:
+  - name: "Eva - US"
+    type: vmess
+    server: eva.tyems.xyz
+    port: 443
+    uuid: a6308d93-bac5-45a1-920a-e24d90d336b7
+    alterId: "0"
+    cipher: auto
+    udp: false
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: eva.tyems.xyz
+  - name: "Chic - US"
+    type: vmess
+    server: chic.tyems.xyz
+    port: 443
+    uuid: 9016a6df-ae4f-424a-adf3-df28700180c4
+    alterId: "0"
+    cipher: auto
+    udp: false
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: chic.tyems.xyz
+  - name: "Uim - US"
+    type: vmess
+    server: uim.tyems.xyz
+    port: 443
+    uuid: ed305f72-266c-4470-ada7-f20af731dd3c
+    alterId: "0"
+    cipher: auto
+    udp: false
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: uim.tyems.xyz
+  - name: "Polaris - US"
+    type: vmess
+    server: polaris.tyems.xyz
+    port: 443
+    uuid: f5ebd669-b3e0-4c43-bfb7-190b946970af
+    alterId: "0"
+    cipher: auto
+    udp: false
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: polaris.tyems.xyz
+  - name: "Lily - JP"
+    type: vmess
+    server: lily.tyems.xyz
+    port: 443
+    uuid: 04e27574-eb99-4b43-b5d6-a695d36e7654
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /cacha
+      headers:
+        Host: lily.tyems.xyz
